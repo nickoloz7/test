@@ -1,0 +1,118 @@
+/*@font-face {
+	font-family: 'openSans';
+	src: url(../fonts/openSans.ttf);
+}*/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #7581a1;
+	line-height: 26px;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 80px;
+	font-weight: 600;
+	color: #192b59;
+}
+
+.nav {
+	font-size: 12px;
+	font-weight: 700;
+	color: #6e7ea9;
+	text-transform: uppercase;
+}
+
+.free-btn {
+	color: #fff;
+	font-weight: 400;
+	background: #1085e4;
+	padding: 22px 58px;
+	border-radius: 30px;
+}
+
+.gred h2 {
+	font-size: 40px;
+	font-weight: 600;
+	color: #192b59;
+}
+
+.grid h2 span {
+	font-size: 14px;
+	font-weight: 400;
+	color: #1085e4;
+	text-transform: uppercase;
+	display: block;
+}
+
+.grid-item h3 {
+	font-size: 20px;
+	color: #192b59;
+	font-weight: 600;
+}
+
+.grid-item a {
+	color: #1085e4;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.autor {
+	font-weight: 700;
+	color: #1085e4;
+	font-size: 14px;
+}
+
+.autor span {
+	font-size: 16px;
+	font-weight: 700;
+	color: #192b59;
+}
+
+.page-subscribe {
+  background-image: -webkit-linear-gradient( -30deg, rgb(10,32,144) 0%, rgb(35,119,205) 100%);
+}
+
+.page-subscribe h2 {
+	font-size: 50px;
+	font-weight: 600;
+	color: #fff;
+}
+
+.page-subscribe span {
+	font-size: 14px;
+	font-weight: 800;
+	color: #00bffe;
+	display: block;
+}
+
+.page-subscribe p {
+	font-size: 18px;
+	font-weight: 700;
+	color: #dfe8ff;
+}
+
+.page-subscribe input{
+	font-size: 14px;
+	font-weight: 700;
+	color: #b1c3ee;
+	background: transparent;
+	padding: 28px 326px 28px 40px;
+	border-radius: 35px;
+	border: 1px solid #2d5fb8;
+}
+
+.page-subscribe button {
+	font-size: 14px;
+	font-weight: 700;
+	color: #fff;
+	background: #1085e4;
+	border-radius: 27px; 
+	padding: 20px 47px;
+	border: none;
+	letter-spacing: 2px;
+}
