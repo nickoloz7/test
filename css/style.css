@@ -1,8 +1,3 @@
-/*@font-face {
-	font-family: 'openSans';
-	src: url(../fonts/openSans.ttf);
-}*/
-
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
@@ -25,14 +20,70 @@ h1 {
 	font-weight: 700;
 	color: #6e7ea9;
 	text-transform: uppercase;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 
-.free-btn {
-	color: #fff;
-	font-weight: 400;
-	background: #1085e4;
+.nav li {
+	display: inline-block;
+} 
+
+.btn-block a + a {
+	margin-left: 15px;
+}
+
+.page-header li + li {
+	margin-right: 20px;
+}
+
+.page-header li:first-child {
+	margin-right: 20px;
+}
+
+.page-header  li a {
+	color: #6e7ea9;
+}
+
+.btn-primary {
 	padding: 22px 58px;
 	border-radius: 30px;
+	background: #1085e4;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	border: 1px solid #1085e4;
+}
+
+.btn-primary:hover,  .btn-secondary:hover {
+	padding: 22px 58px;
+	border-radius: 30px;
+	background: #fff;
+	color: #1085e4;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	border: 1px solid #1085e4;
+}
+
+.btn-secondary {
+	padding: 22px 58px;
+	border-radius: 30px;
+	background: #cbdbe8;
+	color: #7e8bae;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.btn-info {
+	background: transparent;
+	color: #8085b1;
+	border: 1px solid #ebf0f5;
 }
 
 .gred h2 {
@@ -104,15 +155,4 @@ h1 {
 	padding: 28px 326px 28px 40px;
 	border-radius: 35px;
 	border: 1px solid #2d5fb8;
-}
-
-.page-subscribe button {
-	font-size: 14px;
-	font-weight: 700;
-	color: #fff;
-	background: #1085e4;
-	border-radius: 27px; 
-	padding: 20px 47px;
-	border: none;
-	letter-spacing: 2px;
 }
