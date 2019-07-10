@@ -11,8 +11,12 @@ a {
 
 h1 {
 	font-size: 80px;
-	font-weight: 600;
-	color: #192b59;
+    font-weight: 600;
+    color: #192b59;
+    max-width: 540px;
+    line-height: 98px;
+    letter-spacing: 0.3px;
+    margin-bottom: 65px
 }
 
 .nav {
@@ -23,22 +27,21 @@ h1 {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	display: flex;
 }
 
-.nav li {
-	display: inline-block;
-} 
+.list-stat {
+	display: flex;
+	list-style-type: none;
+	padding: 0;
+}
 
 .btn-block a + a {
 	margin-left: 15px;
 }
 
-.page-header li + li {
-	margin-right: 20px;
-}
-
-.page-header li:first-child {
-	margin-right: 20px;
+.nav li {
+	padding: 0 15px;
 }
 
 .page-header  li a {
@@ -46,38 +49,38 @@ h1 {
 }
 
 .btn-primary {
-	padding: 22px 58px;
+	padding: 22px 44px;
 	border-radius: 30px;
 	background: #1085e4;
 	color: #fff;
 	font-size: 12px;
 	font-weight: 700;
 	text-transform: uppercase;
-	letter-spacing: 1px;
+	letter-spacing: 3px;
 	border: 1px solid #1085e4;
 }
 
 .btn-primary:hover,  .btn-secondary:hover {
-	padding: 22px 58px;
+	padding: 22px 44px;
 	border-radius: 30px;
 	background: #fff;
 	color: #1085e4;
 	font-size: 12px;
 	font-weight: 700;
 	text-transform: uppercase;
-	letter-spacing: 1px;
+	letter-spacing: 3px;
 	border: 1px solid #1085e4;
 }
 
 .btn-secondary {
-	padding: 22px 58px;
+	padding: 22px 44px;
 	border-radius: 30px;
 	background: #cbdbe8;
 	color: #7e8bae;
 	font-size: 12px;
 	font-weight: 700;
 	text-transform: uppercase;
-	letter-spacing: 1px;
+	letter-spacing: 3px;
 }
 
 .btn-info {
