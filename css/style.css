@@ -94,6 +94,16 @@ h1 {
 	font-weight: 700;
 	color: #192b59;
 }
+.h2_50 {
+	font-size: 50px;
+	font-weight: 600;
+	color: #192b59;
+	letter-spacing: -2px;
+	/*max-width: 401px;*/
+	line-height: 65px;
+	text-align: center;
+	margin: 0 auto;
+}
 
 .grid h2 {
 	/*font-size: 40px;
@@ -193,11 +203,19 @@ h1 {
 	margin: 115px auto 60px;
 }
 /*page-price*/
+sub {
+	font-size: 20px;
+	font-weight: 700;
+
+}
 .page-price {
 	text-align: center;
 }
-.page-price h2 {
-	margin: 115px auto 85px;
+.page-price .h2_40 {
+	margin: 75px auto 90px;
+}
+.page-price .h2_50 {
+	margin-top: 70px;
 }
 .page-price .span {
 	padding-bottom: 20px;
@@ -206,7 +224,8 @@ h1 {
 	display: flex;
 }
 .page-price .wrap div {
-	padding: 0 60px;
+	padding: 0 0 70px;
+	width: 350px;
 	margin-right: 30px;
 	background: #f5faff;
 }
@@ -220,8 +239,9 @@ h1 {
 	font-weight: 700;
 	color: #6e7ea9;
 	padding: 0;
+	margin: 0 auto 40px;
 }
-.page-price .wrap div:nth-child(2) h1 {
+.page-price .wrap div:nth-child(2) h2 {
 	color: #fff;
 }
 /*page-stat*/
