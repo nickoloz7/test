@@ -16,7 +16,7 @@ h1 {
     max-width: 540px;
     line-height: 98px;
     letter-spacing: 0.3px;
-    margin-bottom: 65px
+    margin-bottom: 65px;
 }
 
 .nav {
@@ -88,19 +88,36 @@ h1 {
 	color: #8085b1;
 	border: 1px solid #ebf0f5;
 }
-
-.gred h2 {
+/*h2 styles */
+.h2_40 {
 	font-size: 40px;
-	font-weight: 600;
+	font-weight: 700;
 	color: #192b59;
 }
 
-.grid h2 span {
+.grid h2 {
+	/*font-size: 40px;
+	font-weight: 700;
+	color: #192b59;*/
+	max-width: 274px;
+	line-height: 45px;
+}
+
+.span{
 	font-size: 14px;
-	font-weight: 400;
+	font-weight: 700;
 	color: #1085e4;
 	text-transform: uppercase;
 	display: block;
+	letter-spacing: 2px;
+}
+
+.colorFeedbackH2 {
+	color: #fff;
+}
+
+.colorFeedbackSpan {
+	color: #3c99eb;
 }
 
 .grid-item h3 {
@@ -127,6 +144,10 @@ h1 {
 	color: #192b59;
 }
 
+.page-feedback, .page-team {
+	background: #85c8ff;
+}
+
 .page-subscribe {
   background-image: -webkit-linear-gradient( -30deg, rgb(10,32,144) 0%, rgb(35,119,205) 100%);
 }
@@ -137,11 +158,13 @@ h1 {
 	color: #fff;
 }
 
-.page-subscribe span {
+.page-subscribe h2 span {
 	font-size: 14px;
 	font-weight: 800;
 	color: #00bffe;
 	display: block;
+	text-transform: uppercase;
+	letter-spacing: 3px;
 }
 
 .page-subscribe p {
@@ -158,4 +181,99 @@ h1 {
 	padding: 28px 326px 28px 40px;
 	border-radius: 35px;
 	border: 1px solid #2d5fb8;
+}
+/*page-details*/
+.page-details img {
+	width: 100%;
+}
+.page-details {
+	text-align: center;
+}
+.page-details h2 {
+	margin: 115px auto 60px;
+}
+/*page-price*/
+.page-price {
+	text-align: center;
+}
+.page-price h2 {
+	margin: 115px auto 85px;
+}
+.page-price .span {
+	padding-bottom: 20px;
+}
+.page-price .wrap {
+	display: flex;
+}
+.page-price .wrap div {
+	padding: 0 60px;
+	margin-right: 30px;
+	background: #f5faff;
+}
+.page-price .wrap div:nth-child(2) {
+	background: #192b59;
+}
+.page-price ul {
+	list-style: none;
+	white-space: nowrap;
+	font-size: 14px;
+	font-weight: 700;
+	color: #6e7ea9;
+	padding: 0;
+}
+.page-price .wrap div:nth-child(2) h1 {
+	color: #fff;
+}
+/*page-stat*/
+
+.page-stat {
+	background: #edf6ff;
+}
+
+.wrap {
+	max-width: 1110px;
+	margin: 0 auto;
+}
+
+.page-stat h2 span {
+	display: block;
+	font-size: 16px;
+	font-weight: 800;
+	color: #1585e4;
+	letter-spacing: 3px;
+	padding-top: 40px;
+}
+
+.page-stat h2 {
+	font-size: 50px;
+	font-weight: 600;
+	color: #192b59;
+	letter-spacing: -2px;
+	max-width: 401px;
+	line-height: 65px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.list-stat {
+	display: fiex;
+	justify-content: space-around;
+	margin: 45px 0; 
+} 
+
+.list-stat li {
+	font-size: 12px;
+	font-weight: 700;
+	color: #1085e4;
+	letter-spacing: 2px;
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.list-stat li span {
+	display: block;
+	font-size: 50px;
+	font-weight: 700;
+	color: #bacbdc;
+	margin-bottom: 15px;
 }
