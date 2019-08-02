@@ -280,7 +280,7 @@ sub {
 .page-price .wrap div:nth-child(2)::after {
 	display: none;
 }
-.page-price .wrap div: {
+.page-price .wrap div:nth-child(2) {
 	background: #192b59;
 }
 .page-price ul {
