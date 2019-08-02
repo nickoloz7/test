@@ -222,10 +222,11 @@ sub {
 }
 .page-price .wrap {
 	display: flex;
+	justify-content: space-between;
 }
 .page-price .wrap div {
 	padding: 0 0 70px;
-	width: 350px;
+	flex-basis: 32%;
 	margin-right: 30px;
 	background: #f5faff;
 }
