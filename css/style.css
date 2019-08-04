@@ -18,7 +18,9 @@ h1 {
     letter-spacing: 0.3px;
     margin-bottom: 65px;
 }
-
+ul {
+	list-style-type: none;
+}
 .wrap {
 	max-width: 1110px;
 	margin: 0 auto;
@@ -44,11 +46,47 @@ h1 {
 	font-weight: 700;
 	color: #6e7ea9;
 	text-transform: uppercase;
-	list-style-type: none;
 	margin-right: -73px;
 	padding: 0;
 	display: flex;
 	align-items: center;
+}
+/*page-company*/
+.page-company {
+	background: url(../img/bg_companies.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 102px 0;
+}
+.page-company ul {
+	display: flex;
+	justify-content: space-between;
+	max-width: 1110px;
+	margin: 0 auto;
+}
+.company1 {
+	background: url(../img/company1.png);
+	background-repeat: no-repeat;
+	flex-basis: 198px;
+	height: 58px;
+}
+.company2 {
+	background: url(../img/company2.png);
+	background-repeat: no-repeat;
+	flex-basis: 200px;
+	height: 69px;
+}
+.company3 {
+	background: url(../img/company3.png);
+	background-repeat: no-repeat;
+	flex-basis: 201px;
+	height: 47px;
+}
+.company4 {
+	background: url(../img/company4.png);
+	background-repeat: no-repeat;
+	flex-basis: 200px;
+	height: 69px;
 }
 
 .list-stat {
@@ -138,9 +176,6 @@ h1 {
 }
 
 .grid h2 {
-	/*font-size: 40px;
-	font-weight: 700;
-	color: #192b59;*/
 	max-width: 274px;
 	line-height: 45px;
 }
