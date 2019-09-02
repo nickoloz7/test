@@ -64,7 +64,6 @@ ul {
 /*page-company*/
 .page-company {
 	background: url(../img/bg_companies.png);
-	background-repeat: no-repeat;
 	padding: 102px 0;
 }
 .page-company ul {
