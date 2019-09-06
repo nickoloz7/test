@@ -24,7 +24,6 @@ ul {
 .wrap {
 	max-width: 1110px;
 	margin: 0 auto;
-	/*overflow: hidden;*/
 }
 /*page-header*/
 .page-header {
@@ -520,30 +519,63 @@ sub {
 	margin-bottom: 15px;
 }
 /*page-software*/
+.page-software {
+	background: url(../img/bacground-software.png);
+	background-position: -596% -10%;
+	background-repeat: no-repeat;
+}
 .icon-software {
 	background: url(../img/icon-software.png);
 	width: 115px;
 	height: 84px;
+	background-position-x: -25px;
+    background-repeat: no-repeat;
+    margin: 0px 0 23px;
+}
+.page-softwere-content h2 {
+	margin: 0px 0px 0px 0px;
+	line-height: 58px;
+    letter-spacing: -1.7px;
+    word-spacing: 7px;
+    text-align: left;
+}
+.page-softwere-content p {
+	margin: 28px 0px 0px 0px;
+	/*line-height: 58px;
+    letter-spacing: -1.7px;
+    word-spacing: 7px;*/
 }
 .background-soft {
-	width: 931px;
+	width: 511px;
 	height: 1002px;
 }
 .page-softwere-flex {
 	display: flex;
-	background: url(../img/bacground-software.png);
 	
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
 }
 .page-softwere-content {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 	flex-basis: 55%;
+	font-weight: 700;
 }
 .dl {
-	height: 60vh;
-	overflow: hidden;
-	overflow-y: scroll;
+	    height: 45vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    margin-bottom: 65px;
+}
+dl {
+	margin: 28px 0;
+}
+dt {
+	margin-bottom: 10px;
+}
+dd {
+	font-size: 14px;
+	margin: 0;
+}
+hr {
+	margin: 22px;
 }
