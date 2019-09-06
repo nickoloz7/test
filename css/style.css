@@ -346,16 +346,18 @@ ul {
 }
 .subscribe-img {
 	background: url(../img/robot.png);
-	background-repeat: no-repeat;
-	width: 354px;
-	height: 417px;
-	align-self: center;
+    background-repeat: no-repeat;
+    width: 354px;
+    height: 442px;
+    align-self: center;
+    background-position: 2px 13px;
 }
 .page-subscribe h2 {
 	font-size: 50px;
 	font-weight: 600;
 	color: #fff;
-	margin: 100px 0 50px;
+	margin: 111px 0 50px;
+	letter-spacing: -5px;
 }
 
 .page-subscribe h2 span {
@@ -365,13 +367,15 @@ ul {
 	display: block;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	padding-bottom: 40px;
+	padding-bottom: 32px;
 }
 
 .page-subscribe p {
 	font-size: 18px;
 	font-weight: 700;
 	color: #dfe8ff;
+	margin-top: -8px;
+    line-height: 28px;
 }
 
 .page-subscribe input{
@@ -379,20 +383,22 @@ ul {
 	font-weight: 700;
 	color: #b1c3ee;
 	background: transparent;
-	padding: 28px 326px 28px 40px;
+	padding: 26px 326px 28px 40px;
 	border-radius: 35px;
 	border: 1px solid #2d5fb8;
 	outline: none;
 }
 .btn-subscribe {
 	display: block;
-	position: relative;
-	bottom: 66px;
-	left: 363px;
-	outline: none;
+    position: relative;
+    bottom: 61px;
+    left: 343px;
+    outline: none;
+    padding: 17px 44px;
+    letter-spacing: 4px;
 }
 .box-input {
-	margin: 50px 0 100px;
+	margin: 36px 0 71px;
 }
 /*page-details*/
 .page-details img {
